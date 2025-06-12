@@ -1,5 +1,4 @@
 package stream.exercice;
-
 import java.util.List;
 
 public class CountWordsStartingWithA {
