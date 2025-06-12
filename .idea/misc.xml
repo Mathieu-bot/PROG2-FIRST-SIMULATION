@@ -13,4 +13,7 @@
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
 </project>
