@@ -1,9 +1,8 @@
 package stream.exercice;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class CountWordsStartingWithA {
-    public static long CountWordsStartingWithA(List<String> words)
-    }
+  public static long countWordsStartWithA (List<String> str) {
+    return str.stream().filter(e -> e.startsWith("A")).count();
+  }
 }
