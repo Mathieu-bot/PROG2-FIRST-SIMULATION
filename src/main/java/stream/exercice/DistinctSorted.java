@@ -1,9 +1,10 @@
 package stream.exercice;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class DistinctSorted {
-    static List<Integer> distinctSorted(List<Integer> numbers) {
-
+    public static List<Integer> distinctSorted(List<Integer> numbers) {
+        return numbers.stream().distinct().sorted().collect(Collectors.toList());
     }
 }
